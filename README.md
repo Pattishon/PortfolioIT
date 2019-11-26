@@ -1,68 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Portfolio
+Personal portfolio page [https://patti-adams.netlify.com/](https://patti-adams.netlify.com/) delivered with [React](https://pl.reactjs.org/ "React") and [React-Bootstrap](https://react-bootstrap.github.io/ "React-Bootstrap").
 
-## Available Scripts
+## Building Process
 
-In the project directory, you can run:
+1. Core of the project established with [Create React App](https://create-react-app.dev/ "create react app"). 
+2. [New layout](https://www.figma.com/file/ZqHg4IBe3kmIUcdloCzK3w/Potrfolio?node-id=0%3A1 "Figma prototype") of the portfolio created in Figma.
+3. Migrate [old version of portfolio](https://partycja-a.netlify.com/ "Old portfolio") which was using only [Bootstrap](https://getbootstrap.com/ "Bootstrap") to use [React](https://pl.reactjs.org/ "React") and [React-Bootstrap](https://react-bootstrap.github.io/ "React-Bootstrap").
+4. I modified the design to use [React-Router](https://reacttraining.com/react-router/web/guides/quick-start "React-Router") with a different page for each section of the portfolio.
+5. I added scss instead of the regular css files. Up this moment I was wondering which library for styles I should use. Finally settled for [React-Bootstrap](https://react-bootstrap.github.io/ "React-Bootstrap") and [Material ui](https://material-ui.com/ "Material UI") components.
+5. For skills I used the carousel from [React-Multi-Carousel](https://www.npmjs.com/package/react-multi-carousel "React-Multi-Carousel")
+5. Added icons from [Iconify](https://iconify.design/ "Iconify") for skills and social media icons.
+6. Added form for the contact page. It uses [netlify](https://www.netlify.com/ "Netlify") serverless solution to post submissions, as I don't need anything more in this project.
+7. Updated text on all the pages.
 
-### `yarn start`
+## Challanges in rebuildning the website
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. I found implementing menu challanging, spent some time figuring how can I use my own component instead of the default bootstrap icon for the mobile/small screen version of the menu. 
+2. Structuring the application Routes took me some time. Now it is ready for me to add a blog section in the near future and shoud scale easily if I decide to add any new features to the website.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Thank you for checking my website
+Please feel free to [contact me](https://patti-adams.netlify.com/contact "contact")
