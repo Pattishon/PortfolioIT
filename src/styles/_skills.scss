@@ -1,0 +1,91 @@
+.skills {
+  background-color: $turq-med;
+  min-height: 100vh;
+  padding: 2rem;
+
+  .skills__title {
+    font-size: 2rem;
+  }
+  .skills__hr {
+    border-bottom: 0.1rem solid $turq-light;
+    margin: 0 auto 3rem;
+    width: 5rem;
+  }
+
+  .skills__card {
+    height: 40vh;
+    margin: 0 auto;
+    width: 75%;
+  }
+
+  .skill {
+    cursor: pointer;
+    height: 100%;
+  }
+
+  .skills__carousel {
+    height: 100%;
+    // padding: 0 0 15rem;
+  }
+  .skills__slider {
+    align-items: center;
+    height: 100%;
+  }
+  .react-multi-carousel-item {
+    filter: blur(0.1rem);
+
+    .skill__icon {
+      color: $orange-med;
+      height: 4rem;
+      transition: color 500ms linear, width 500ms ease-in-out,
+        height 500ms ease-in-out, filter 500ms linear;
+      width: 4rem;
+    }
+    .skill__text {
+      font-size: 1rem;
+    }
+  }
+
+  .react-multi-carousel-item--active {
+    filter: none;
+
+    .skill__icon {
+      color: $orange-dark;
+      height: 6rem;
+      width: 6rem;
+    }
+    .skill__text {
+      font-size: 1.5rem;
+    }
+  }
+
+  .custom-button-group {
+    position: absolute;
+  }
+}
+
+.skills-list {
+  .skills-list__card {
+    height: 80%;
+    margin: 2rem 3rem;
+    overflow: auto;
+  }
+  .skills-list__container {
+    padding: 1rem 2rem;
+  }
+  .skills-list__subtitle {
+    font-size: 1.2rem;
+  }
+  .skills-list__list {
+    list-style: none;
+    padding: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .skills {
+    .skills__title {
+      font-size: 2.5rem;
+    }
+  }
+}

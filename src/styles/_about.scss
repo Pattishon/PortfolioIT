@@ -1,0 +1,43 @@
+.about-page {
+  background: $off-white;
+  font-size: 0.9rem;
+  min-height: 100vh;
+}
+.about-page > div {
+  min-height: 80vh;
+  margin: 0 auto;
+  width: 75%;
+}
+.about-page__avatar {
+  border: 1px solid $orange-med;
+  height: 10rem;
+  width: 10rem;
+  object-fit: cover;
+}
+.about-page__card {
+  height: 100%;
+}
+.about-page__title {
+  font-size: 1.3rem;
+}
+.about-page__description {
+  font-size: 1rem;
+}
+.about-page__button {
+  min-width: 8rem;
+}
+
+@media (min-width: 768px) {
+  .about-page {
+    font-size: 1rem;
+  }
+  .about-page__avatar {
+    max-height: 20rem;
+  }
+  .about-page__title {
+    font-size: 2.4rem;
+  }
+  .about-page__description {
+    font-size: 1.25rem;
+  }
+}

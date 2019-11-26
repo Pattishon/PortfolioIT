@@ -1,0 +1,48 @@
+@import "./styles/theme";
+@import "./styles/landingPage";
+@import "./styles/about";
+@import "./styles/cv";
+@import "./styles/skills";
+@import "./styles/portfolio";
+@import "./styles/contact";
+
+/* offset for menu */
+.offset::before {
+  display: block;
+  content: "";
+  height: 4.88rem;
+}
+@media (min-width: 768px) {
+  .offset::before {
+    display: block;
+    content: "";
+    height: 3.78rem;
+  }
+}
+
+// modal settings
+.cover-page {
+  align-items: center;
+  background: $black-low-leg;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 2;
+}
+
+//scrollbar
+::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $black-low-leg;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $black-med-leg;
+}

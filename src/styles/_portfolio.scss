@@ -1,0 +1,50 @@
+.portfolio {
+  background: $off-white;
+  padding: 2rem;
+
+  .portfolio__title {
+    font-size: 2rem;
+  }
+  .portfolio__hr {
+    border-bottom: 0.1rem solid $turq-med;
+    margin: 0 auto 3rem;
+    width: 5rem;
+  }
+}
+
+.project {
+  .project__details {
+    position: relative;
+  }
+  .project__img {
+    cursor: pointer;
+    height: 20rem;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    transition: transform 0.5s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  .project__description {
+    background: $black-med-leg;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .project__info {
+    border-bottom: 1px dotted $off-white;
+  }
+}
+
+@media (min-width: 768px) {
+  .portfolio {
+    .portfolio__title {
+      font-size: 2.5rem;
+    }
+  }
+}

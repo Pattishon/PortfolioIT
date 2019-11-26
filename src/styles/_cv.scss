@@ -1,0 +1,98 @@
+.cv {
+  .cv__card {
+    height: 80%;
+    margin: 0 auto;
+    max-width: 50rem;
+    overflow: auto;
+    width: 75%;
+  }
+
+  .cv_title {
+    font-size: 1.3rem;
+  }
+
+  .cv__section-title {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .cv__list {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .cv__list--tech,
+  .cv__list--interests {
+    column-count: 2;
+  }
+
+  .skills__list > :nth-child(odd) {
+    background: $off-white;
+  }
+
+  .cv__list--exp {
+    list-style: circle !important;
+    list-style-position: inside !important;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    text-align: left !important;
+  }
+
+  .cv__exp > div {
+    border: 1px solid $black-low-leg;
+    border-bottom: none;
+    padding-bottom: 1.2rem;
+  }
+  .cv__exp > div:last-child {
+    border-bottom: 1px solid $black-low-leg;
+  }
+  .cv__exp p {
+    margin: 0.2rem;
+  }
+  .cv__exp > div > :first-child {
+    background: $off-white;
+  }
+
+  .links a,
+  .no-wrap {
+    white-space: nowrap;
+  }
+}
+@media (min-width: 768px) {
+  .cv {
+    .cv_title {
+      font-size: 2rem;
+    }
+    .cv__section-title {
+      font-size: 1.5rem;
+    }
+
+    .tech,
+    .cv-skills {
+      margin: 0 1rem;
+      width: 50%;
+    }
+    .cv__list--tech {
+      column-count: 1;
+    }
+    .skills__list > * {
+      background: transparent;
+    }
+
+    .cv__exp > div {
+      padding: 0;
+    }
+    .cv__exp > div > :first-child {
+      background: transparent;
+      border-right: 1px solid var(--black-low-leg);
+      width: 30%;
+    }
+    .cv__exp .responsibilities {
+      width: 70%;
+    }
+    .cv__exp .responsibilities ul {
+      margin: 1rem;
+      text-align: left;
+    }
+  }
+}

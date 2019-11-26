@@ -1,0 +1,43 @@
+// colors
+$turq-dark: #01776e;
+$turq-med: #009183;
+$turq-light: #5fd1d3;
+$orange-dark: #df5e01;
+$orange-med: #fd9f0d;
+$off-white: #e6e6e1;
+$accent-dark: #523c2e;
+$black-high-leg: #000000de;
+$black-med-leg: #00000099;
+$black-low-leg: #00000061;
+
+// text colors
+.text-off-white {
+  color: $off-white;
+}
+.text-hight-leg {
+  color: var(--black-hight-leg);
+}
+.text-med-leg {
+  color: var(--black-med-leg);
+}
+.text-low-leg {
+  color: var(--black-low-leg);
+}
+.text-accent {
+  color: $accent-dark;
+}
+.text-turq-med {
+  color: $turq-med;
+}
+
+//buttons
+.button-dark,
+.button-dark:hover,
+.button-dark:active,
+.button-dark:focus,
+.button-light:hover,
+.button-light:active,
+.button-light:focus {
+  color: $off-white;
+  text-decoration: none;
+}

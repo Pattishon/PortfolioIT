@@ -1,0 +1,78 @@
+.contact {
+  background: $off-white;
+  min-height: 100vh;
+  padding: 2rem;
+
+  .constact__title {
+    font-size: 2rem;
+  }
+  .contact__hr {
+    border-bottom: 0.1rem solid $turq-med;
+    margin: 0 auto 2rem;
+    width: 5rem;
+  }
+
+  .social-media {
+    a {
+      margin: 0.5rem;
+    }
+    .social-media__icon {
+      color: $turq-med;
+      height: 1.5rem;
+      transition: color 300ms linear;
+      width: 1.5rem;
+
+      &:hover,
+      &:active,
+      &:focus {
+        color: $orange-med;
+      }
+    }
+  }
+
+  .contact-form__card {
+    margin: 0 auto;
+    max-width: 50rem;
+    padding: 0 !important;
+  }
+
+  .contact-form__header {
+    background: $turq-med;
+    position: relative;
+  }
+  .contact-form__header::after {
+    background: $turq-med;
+    bottom: -2rem;
+    clip-path: polygon(50% 50%, 0 0, 100% 0);
+    content: "";
+    display: block;
+    height: 2.1rem;
+    right: 50%;
+    position: absolute;
+    transform: translateX(50%);
+    width: 2.1rem;
+  }
+  .contact-form__title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact {
+    .constact__title {
+      font-size: 2.5rem;
+    }
+    .contact-form__title {
+      font-size: 2rem;
+    }
+    .contact-form__header {
+      max-width: 30%;
+    }
+    .contact-form__header::after {
+      clip-path: polygon(50% 50%, 0 100%, 0 0);
+      right: -2rem;
+      transform: translateY(50%) translateX(0);
+      bottom: 50%;
+    }
+  }
+}
