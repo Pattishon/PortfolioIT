@@ -1,5 +1,6 @@
 import React from "react";
 import { Icon } from "@iconify/react";
+import githubIcon from "@iconify/icons-simple-icons/github";
 import facebookIcon from "@iconify/icons-simple-icons/facebook";
 import instagramIcon from "@iconify/icons-simple-icons/instagram";
 import twitterIcon from "@iconify/icons-simple-icons/twitter";
@@ -7,6 +8,13 @@ import linkedinIcon from "@iconify/icons-simple-icons/linkedin";
 
 const SocialMedia = () => (
   <>
+    <a
+      href="https://github.com/Pattishon"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Icon icon={githubIcon} className="social-media__icon" />
+    </a>
     <a
       href="https://www.facebook.com/PattiAdamsArt/"
       target="_blank"

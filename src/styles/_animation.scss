@@ -1,0 +1,7 @@
+button {
+  transition: transform 100ms ease-in-out !important,
+    background-color 100ms ease-in-out !important;
+}
+button:hover {
+  transform: scale(1.1);
+}

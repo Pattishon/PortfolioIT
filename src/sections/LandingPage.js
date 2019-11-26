@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "@material-ui/core/Button";
-import { LinkContainer } from "react-router-bootstrap";
+import { Link } from "react-router-dom";
 
 const LandingPage = () => (
   <div
@@ -14,11 +14,11 @@ const LandingPage = () => (
       <h1 className="caption__title text-off-white">Patti Adams</h1>
       <h2 className="caption__subtitle text-off-white">Front-end Developer</h2>
 
-      <LinkContainer to="/about">
-        <Button variant="contained" color="primary" className="button-dark">
+      <Button variant="contained" color="primary">
+        <Link to="/about" className="button-dark">
           Get Started
-        </Button>
-      </LinkContainer>
+        </Link>
+      </Button>
     </div>
   </div>
 );

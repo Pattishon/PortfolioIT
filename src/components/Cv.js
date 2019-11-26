@@ -1,5 +1,7 @@
 import React from "react";
 import Card from "@material-ui/core/Card";
+import IconButton from "@material-ui/core/IconButton";
+import CloseIcon from "@material-ui/icons/Close";
 
 const Cv = ({ hideCv }) => {
   const fn = e => {
@@ -9,6 +11,9 @@ const Cv = ({ hideCv }) => {
   return (
     <div id="cv" className="cv cover-page offset" onClick={hideCv}>
       <Card className="cv__card px-2 py-3 my-2" onClick={e => fn(e)}>
+        <IconButton className="cv__close-button" onClick={hideCv}>
+          <CloseIcon color="secondary" />
+        </IconButton>
         <h1 className="cv_title"> PATRYCJA ADAMCZYK</h1>
         <hr />
         <p className="d-flex flex-column flex-md-row justify-content-md-around">
@@ -176,11 +181,21 @@ const Cv = ({ hideCv }) => {
           <p>
             Website (portfolio):{" "}
             <a
-              href="https://partycja-a.netlify.com/"
+              href="https://patti-adams.netlify.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              https://partycja-a.netlify.com/
+              https://patti-adams.netlify.com/
+            </a>
+          </p>
+          <p>
+            Github:{" "}
+            <a
+              href="https://github.com/Pattishon"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://github.com/Pattishon
             </a>
           </p>
           <p>

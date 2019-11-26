@@ -4,9 +4,14 @@
     margin: 0 auto;
     max-width: 50rem;
     overflow: auto;
+    position: relative;
     width: 75%;
   }
-
+  .cv__close-button {
+    position: sticky;
+    left: 90%;
+    top: 0.4rem;
+  }
   .cv_title {
     font-size: 1.3rem;
   }
