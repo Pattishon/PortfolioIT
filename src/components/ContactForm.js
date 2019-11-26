@@ -8,6 +8,7 @@ const ContactForm = () => (
     method="post"
     className="contact-form__form p-3 d-flex flex-column flex-md-row justify-content-center justify-content-md-around align-items-center text-center flex-grow-1"
     onSubmit={() => console.log("submit")}
+    action="/"
   >
     <input type="hidden" name="form-name" value="contact" />
     <div>
@@ -33,10 +34,9 @@ const ContactForm = () => (
       <TextField
         id="message"
         label="Message:"
+        name="message"
         multiline
         rows="6"
-        // defaultValue="Default Value"
-        // className={classes.textField}
         margin="normal"
         variant="outlined"
         required

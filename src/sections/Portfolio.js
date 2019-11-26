@@ -62,7 +62,7 @@ const projects = [
         <strong>HTML</strong>, <strong>CSS</strong>, <strong>Bootstrap</strong>
       </>
     ),
-    link: "/project/bootstrap-neon",
+    link: "https://partycja-a.netlify.com/portfolio/neon_theme/index.html",
     tags: ["Bootstrap", "HTML", "CSS"]
   },
   {
@@ -76,7 +76,8 @@ const projects = [
         <strong>HTML</strong>, <strong>CSS</strong>, <strong>Bootstrap</strong>
       </>
     ),
-    link: "/project/bootstrap",
+    link:
+      "https://partycja-a.netlify.com/portfolio/bootstrap%20with%20image%20slider/bootstrap-image.html",
     tags: ["Bootstrap", "HTML", "CSS"]
   },
   {
@@ -114,9 +115,7 @@ const Portfolio = () => {
         Portfolio
       </h1>
       <hr className="portfolio__hr" />
-      {/* <div>
-        <Filters />
-      </div> */}
+
       <div className="portfolio__projects mb-5 row">
         {projects.map(project => (
           <Project project={project} key={project.title} />
