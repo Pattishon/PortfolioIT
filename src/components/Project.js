@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import Button from "@material-ui/core/Button";
 import Chip from "@material-ui/core/Chip";
+import { useTranslation } from "react-i18next";
 
 const Project = ({ project }) => {
+  const { t } = useTranslation();
   const [descriptionVisible, setDescriptionVisible] = useState(false);
   const toggleDescription = () => {
-    console.log("show desc");
     setDescriptionVisible(!descriptionVisible);
   };
   return (
@@ -24,7 +25,7 @@ const Project = ({ project }) => {
           >
             <p className="project__info m-2">{project.info}</p>
             <p className="project__technologies">
-              Used technlogies: {project.technologies}
+              {t("portfolio.technologies")}: {project.technologies}
             </p>
             <div>
               <Button
@@ -40,7 +41,8 @@ const Project = ({ project }) => {
                   rel="noopener noreferrer"
                   className="text-accent button-light"
                 >
-                  Go to {project.title}
+                  {t("portfolio.goTo")}
+                  {project.title}
                 </a>
               </Button>
             </div>

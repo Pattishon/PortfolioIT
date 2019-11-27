@@ -1,15 +1,11 @@
 import React, { useState } from "react";
 import Button from "@material-ui/core/Button";
 import Card from "@material-ui/core/Card";
+import { useTranslation } from "react-i18next";
 import Cv from "../components/Cv";
 
-const randomFacts = [
-  "I like cats",
-  "Fan of Star Trek",
-  "In free time I paint and draw",
-  "I have 464 color pencils"
-];
 const About = () => {
+  const { t } = useTranslation();
   const [showCv, setShowCv] = useState(false);
 
   const handleCvOptVisibility = () => {
@@ -18,7 +14,7 @@ const About = () => {
 
   const randomFact = {
     num: Math.floor(Math.random() * 300),
-    fact: randomFacts[Math.floor(Math.random() * randomFacts.length)]
+    fact: Math.floor(Math.random() * 3)
   };
 
   return (
@@ -35,15 +31,10 @@ const About = () => {
             </div>
             <Card className="about-page__card mb-3 mb-md-0 px-3 px-md-5 py-3">
               <h1 className="about-page__title mt-3 mb-4 text-uppercase">
-                Get to know me!
+                {t("about.header")}
               </h1>
               <p className="about-page__description lead">
-                I am a front-end developer, mostly programming in React. All
-                websites I work on are responsive. I pay strong attention to the
-                code quality and trying to improve it continuously. Besides
-                programming I am interested in graphic design, designing
-                websites, in UX and UI. I am looking for a job that will allow
-                me to develop and improve my programming skills.
+                {t("about.description")}
               </p>
             </Card>
           </div>
@@ -61,7 +52,8 @@ const About = () => {
           {showCv ? <Cv hideCv={handleCvOptVisibility} /> : ""}
 
           <p className="small text-med-leg font-italic mt-5">
-            Random fact about me #{randomFact.num}: {randomFact.fact}
+            {t("about.randomFact")} #{randomFact.num}:{" "}
+            {t(`about.facts.${randomFact.fact}`)}
           </p>
         </div>
       </div>

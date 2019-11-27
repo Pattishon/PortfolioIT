@@ -2,7 +2,7 @@ import React from "react";
 import Button from "@material-ui/core/Button";
 import { LinkContainer } from "react-router-bootstrap";
 
-const Blog = () => (
+const Error = () => (
   <div
     id="error404"
     className="offset"
@@ -17,4 +17,4 @@ const Blog = () => (
   </div>
 );
 
-export default Blog;
+export default Error;

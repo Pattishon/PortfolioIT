@@ -1,0 +1,109 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About me",
+    "skills": "Skills",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "home": {
+    "actionBtn": "Get Started"
+  },
+  "about": {
+    "header": "Get to know me!",
+    "description": "I am a front-end developer, mostly programming in React. All websites I work on are responsive. I pay strong attention to the code quality and trying to improve it continuously. Besides programming I am interested in graphic design, designing websites, in UX and UI. I am looking for a career opportunity that will allow me to develop and improve my programming skills.",
+    "randomFact": "Random fact about me",
+    "facts": {
+      "0": "I have 464 color pencils",
+      "1": "I like cats",
+      "2": "Fan of Star Trek",
+      "3": "In free time I paint and draw"
+    }
+  },
+  "cv": {
+    "subtitles": {
+      "technologies": "TECHNOLOGIES",
+      "skills": "SKILLS",
+      "education": "EDUCATION",
+      "experience": "EXPERIENCE",
+      "languages": "LANGUAGES",
+      "interests": "INTERESTS",
+      "additional": "ADDITIONAL INFORMATION"
+    },
+    "skills": {
+      "1": "Good organization skills – Organizing LARPs and field games for Orkon (for 50 people and more)",
+      "2": "Creativity – Required for interests such as art and LARPs",
+      "3": "Computer graphics – Procreate, Photoshop, Gimp, Krita",
+      "4": "Vector graphics – Inkscape",
+      "5": "3D graphics – Blender"
+    },
+    "education": {
+      "2011": "Silesian University Biotechnology bachelor",
+      "2014": "Silesian University Biotechnology masters",
+      "2015": "AGH University of Science and Technology Computer Graphics postgraduate studies"
+    },
+    "experience": {
+      "programmer": "Programmer",
+      "developing": "Developing a complex, responsive application for hotels and restaurants.",
+      "designing": "Designing layouts for applications.",
+      "technologies": "Technologies",
+      "service": "Service Specialist",
+      "verification": "Initial verification of reported service problems.",
+      "coordination": "Serviceman work coordination on foreign markets (eg. British, French, Dutch and Canadian).",
+      "reports": "Developing reports with MS Excel.",
+      "leader": "Technical Support Team Leader",
+      "supervision": "Coordination and supervision of the team work.",
+      "collaboration": "Collaboration with other departments.",
+      "helpdesk": "Immediate help for the customers from foreign markets (mainlyBritish, Dutch and Malaysian).",
+      "support": "Technical Support Specialist",
+      "tasks": "Receiving and processing of tasks regarding technical and operational problems.",
+      "assistance": "Ad hoc assistance for British, Dutch and Malaysian clients."
+    },
+    "languages": {
+      "pl": "Polish - native",
+      "en": "English - certificate (CAE)",
+      "ge": "German - basic"
+    },
+    "interests": {
+      "art": "Art – painting, drawing, film",
+      "dance": "Dance",
+      "games": "Video games",
+      "larp": "LARPs",
+      "craft": "Sewing and crafts",
+      "trekking": "Trekking"
+    },
+    "links": {
+      "website": "Website",
+      "art": "artictic portfolio"
+    },
+    "consent": "I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament's and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)"
+  },
+  "skills": {
+    "title": "Skills",
+    "programming": "Programming",
+    "learning": "Currently Learning"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "projects": {
+      "expensify": "React application allowing you to gather your expenses. You can log in with google account. Created during a react course.",
+      "tested": "tested with ",
+      "indecission": "If you cannot decide where to eat or what movie to watch you can ask this app. Type in all the options and the app will decide for you. Created during a react course.",
+      "neon": "Responsive website project created with use of Bootstrap 4.",
+      "bootstrap": "Responsive website project created with use of Bootstrap 4. Ideal for portfolio presentation.",
+      "art": "Responsive portfolio project. It was created as an exercise with RWD. All featured paintings are created by the author.",
+      "portfolio": "First version of this portfolio. Created with bootstrap."
+    },
+    "technologies": "Used technlogies",
+    "goTo": "Go to "
+  },
+  "contact": {
+    "title": "Contact",
+    "formTitile": "Get in touch",
+    "formSubTitile": "I am currently open for the new career oportunities, please contact me if you are interested.",
+    "name": "Your Name: ",
+    "mail": "Your Email: ",
+    "message": "Message:",
+    "send": "Send"
+  }
+}
