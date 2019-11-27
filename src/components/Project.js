@@ -25,7 +25,7 @@ const Project = ({ project }) => {
           >
             <p className="project__info m-2">{project.info}</p>
             <p className="project__technologies">
-              {t("portfolio.technologies")}: {project.technologies}
+              {t("portfolio.technologies")}: {project.technologies}.
             </p>
             <div>
               <Button

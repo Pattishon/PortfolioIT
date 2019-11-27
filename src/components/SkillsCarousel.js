@@ -82,7 +82,7 @@ const SkillsCarousel = ({ setIsMoving, showSkillsList }) => {
         afterChange={() => setIsMoving(false)}
         // autoPlay={props.deviceType !== "mobile" ? true : false}
         autoPlay
-        autoPlaySpeed={5000}
+        autoPlaySpeed={3000}
         beforeChange={() => setIsMoving(true)}
         centerMode={true}
         containerClass="skills__carousel"

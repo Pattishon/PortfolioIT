@@ -15,10 +15,11 @@ const Portfolio = () => {
       technologies: (
         <>
           <strong>React</strong>, <strong>Redux</strong>,{" "}
-          <strong>Firebase</strong>,<strong>Webpack</strong>,{" "}
-          <strong>SCSS</strong>,<strong>React-router</strong>,{" "}
+          <strong>Firebase</strong>, <strong>Webpack</strong>,{" "}
+          <strong>SCSS</strong>, <strong>React-router</strong>,{" "}
           {t("portfolio.projects.tested")}
-          <strong>Jest</strong> {"&"} <strong>Enzyme</strong>
+          <strong>Jest</strong> {t("portfolio.projects.and")}{" "}
+          <strong>Enzyme</strong>
         </>
       ),
       link: "https://expensify-control-expenses.herokuapp.com/",

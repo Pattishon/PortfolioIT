@@ -11,13 +11,13 @@
   },
   "about": {
     "header": "Poznaj mnie!",
-    "description": "Jestem front-end-developerem, piszę głównie w React. Wszystkie strony, nad którymi pracuję są responsywne. Przykładam dużą wagę do jakości kodu i ciągle staram się go udoskonalać. Poza porgramowaniem interesuję się grafiką, projektowaniem stron, UX-em i UI. Obecnie szukam pracy, która umożliwi mi rozwój i pogłębianie moich zdolności programistycznych",
+    "description": "Jestem front-end-developerem, piszę głównie w React. Wszystkie strony, nad którymi pracuję są responsywne. Przykładam dużą wagę do jakości kodu i ciągle staram się go udoskonalać. Poza porgramowaniem interesuję się grafiką, projektowaniem stron, UX-em i UI. Obecnie szukam pracy, która umożliwi mi rozwój i pogłębianie moich zdolności programistycznych.",
     "randomFact": "Losowy fakt o mnie",
     "facts": {
-      "0": "Mam 464 kredki",
-      "1": "Lubię koty",
-      "2": "Jestem fanką Star Treka",
-      "3": "W wolnym czasie maluję i rysuję"
+      "0": "Mam 464 kredki.",
+      "1": "Lubię koty.",
+      "2": "Jestem fanką Star Treka.",
+      "3": "W wolnym czasie maluję i rysuję."
     }
   },
   "cv": {
@@ -31,7 +31,7 @@
       "additional": "DODATKOWE INFORMACJE"
     },
     "skills": {
-      "1": "Dobre zdolności organizacyjne - Organizowałam LARPy i gry terenowe podczas Orkonu (dla 50 i więcej osób)",
+      "1": "Dobre zdolności organizacyjne - Organizowałam LARPy i gry terenowe podczas Orkonu (dla 50+ osób)",
       "2": "Kreatywność",
       "3": "Grafika komputerowa - Procreate, Photoshop, Gimp, Krita",
       "4": "Grafika wektorowa – Inkscape",
@@ -49,7 +49,8 @@
       "technologies": "Technologie",
       "service": "Specjalista ds. serwisu",
       "verification": "Wstępna weryfikacja zgłaszanych problemów.",
-      "coordination": "Koordynacja pracy serwisów na rynkach zagranicznych (m. in. brytyjskim, francuskim, holenderskim i kanadyjskim).",
+      "coordination": "Koordynacja pracy serwisantów na rynkach zagranicznych (m. in. brytyjskim, francuskim, holenderskim i kanadyjskim).",
+      "serviceActions": "Organizowanie akcji serwisowych.",
       "reports": "Przygotowanie raportów dotyczących pracy serwisu (MS Excel).",
       "leader": "Lider zespołu wsparcia technicznego paczkomatów",
       "supervision": "Koordynacja i nadzór pracy zespołu.",
@@ -88,11 +89,12 @@
     "projects": {
       "expensify": "Reactowa aplikacja, która pozwala na zebranie w jednym miejscu wszystkich wydatków. Możesz się zalogować przy użyciu konta google. Stworzona podczas kursu Reacta.",
       "tested": "testowane przy użyciu ",
-      "indecission": "Jeśli nie możesz się zdecydować, gdzie zjeść, lub jaki wybrać film możesz zapytać tej aplikacji. Wpisz wszystkie dostępne opcje, a aplikacja zdecyduje za Ciebie. Stworzona podczas kursu Reacta.",
-      "neon": "Responsywny projekt, stowrzony przy użyciu Bootstrap 4.",
-      "bootstrap": "Projekt responsywnej strony, stworzony przy użyciu Bootstrap 4. Idealny do prezentacji portfolio.",
+      "and": "i",
+      "indecission": "Jeśli nie możesz się zdecydować, gdzie zjeść lub jaki wybrać film możesz zapytać aplikację. Wpisz wszystkie dostępne opcje, a aplikacja zdecyduje za Ciebie. Stworzona podczas kursu Reacta.",
+      "neon": "Responsywny projekt, stworzony przy użyciu Bootstrapa 4.",
+      "bootstrap": "Projekt responsywnej strony, stworzony przy użyciu Bootstrapa 4. Idealny do prezentacji portfolio.",
       "art": "Projekt responsywnego portfolio. Stworzony w ramach ćwiczenia technologii RWD. Wszystkie zawarte tu obrazy są mojego autorstwa.",
-      "portfolio": "Pierwsza wersja tego portfolio. Stworzona z użyciem Bootstrap 4."
+      "portfolio": "Pierwsza wersja tego portfolio. Stworzona z użyciem Bootstrapa 4."
     },
     "technologies": "Użyte technologie",
     "goTo": "Przejdź do "

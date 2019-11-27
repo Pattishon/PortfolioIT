@@ -14,10 +14,10 @@
     "description": "I am a front-end developer, mostly programming in React. All websites I work on are responsive. I pay strong attention to the code quality and trying to improve it continuously. Besides programming I am interested in graphic design, designing websites, in UX and UI. I am looking for a career opportunity that will allow me to develop and improve my programming skills.",
     "randomFact": "Random fact about me",
     "facts": {
-      "0": "I have 464 color pencils",
-      "1": "I like cats",
-      "2": "Fan of Star Trek",
-      "3": "In free time I paint and draw"
+      "0": "I have 464 color pencils.",
+      "1": "I like cats.",
+      "2": "Fan of Star Trek.",
+      "3": "In free time I paint and draw."
     }
   },
   "cv": {
@@ -31,7 +31,7 @@
       "additional": "ADDITIONAL INFORMATION"
     },
     "skills": {
-      "1": "Good organization skills – Organizing LARPs and field games for Orkon (for 50 people and more)",
+      "1": "Good organization skills – Organizing LARPs and field games for Orkon (for 50+ people)",
       "2": "Creativity – Required for interests such as art and LARPs",
       "3": "Computer graphics – Procreate, Photoshop, Gimp, Krita",
       "4": "Vector graphics – Inkscape",
@@ -50,6 +50,7 @@
       "service": "Service Specialist",
       "verification": "Initial verification of reported service problems.",
       "coordination": "Serviceman work coordination on foreign markets (eg. British, French, Dutch and Canadian).",
+      "serviceActions": "Organising service actions.",
       "reports": "Developing reports with MS Excel.",
       "leader": "Technical Support Team Leader",
       "supervision": "Coordination and supervision of the team work.",
@@ -88,6 +89,7 @@
     "projects": {
       "expensify": "React application allowing you to gather your expenses. You can log in with google account. Created during a react course.",
       "tested": "tested with ",
+      "and": "&",
       "indecission": "If you cannot decide where to eat or what movie to watch you can ask this app. Type in all the options and the app will decide for you. Created during a react course.",
       "neon": "Responsive website project created with use of Bootstrap 4.",
       "bootstrap": "Responsive website project created with use of Bootstrap 4. Ideal for portfolio presentation.",

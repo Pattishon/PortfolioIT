@@ -78,7 +78,7 @@ const Cv = ({ hideCv }) => {
                 <li>{t("cv.experience.developing")}</li>
                 <li>{t("cv.experience.designing")}</li>
                 <li>
-                  {t("cv.experience.technologies")}: React, Readux, Jest, Css3,
+                  {t("cv.experience.technologies")}: React, Redux, Jest, CSS3,
                   RWD, TailwindCSS, GraphQL, Docker.
                 </li>
               </ul>
@@ -96,6 +96,7 @@ const Cv = ({ hideCv }) => {
               <ul className="cv__list cv__list--exp">
                 <li>{t("cv.experience.verification")}</li>
                 <li>{t("cv.experience.coordination")}</li>
+                <li>{t("cv.experience.serviceActions")}</li>
                 <li>{t("cv.experience.reports")}</li>
               </ul>
             </div>
