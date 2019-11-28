@@ -12,6 +12,7 @@ const Portfolio = () => {
       imgSrc: "img/thumbnails/expensify.png",
       imgAlt: "expencify",
       info: t("portfolio.projects.expensify"),
+      git: "https://github.com/Pattishon/Expensify",
       technologies: (
         <>
           <strong>React</strong>, <strong>Redux</strong>,{" "}
@@ -39,6 +40,7 @@ const Portfolio = () => {
       imgSrc: "img/thumbnails/indecission.png",
       imgAlt: "indecission",
       info: t("portfolio.projects.indecission"),
+      git: "https://github.com/Pattishon/IndecissionApp",
       technologies: (
         <>
           <strong>React</strong>, <strong>Webpack</strong>,{" "}
@@ -91,6 +93,7 @@ const Portfolio = () => {
       imgSrc: "img/thumbnails/artist-portfolio.png",
       imgAlt: "artist portfolio",
       info: t("portfolio.projects.art"),
+      git: "https://github.com/Pattishon/Patti-Adams-Portfolio",
       technologies: (
         <>
           <strong>HTML</strong>, <strong>CSS</strong>, <strong>RWD</strong>
@@ -104,6 +107,7 @@ const Portfolio = () => {
       imgSrc: "img/thumbnails/portfolio.png",
       imgAlt: "portfolio",
       info: t("portfolio.projects.portfolio"),
+      git: "https://github.com/Pattishon/Portfolio",
       technologies: (
         <>
           <strong>HTML</strong>, <strong>CSS</strong>,{" "}
