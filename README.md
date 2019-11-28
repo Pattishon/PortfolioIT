@@ -12,6 +12,7 @@ Personal portfolio page [https://patti-adams.netlify.com/](https://patti-adams.n
 5. Added icons from [Iconify](https://iconify.design/ "Iconify") for skills and social media icons.
 6. Added form for the contact page. It uses [netlify](https://www.netlify.com/ "Netlify") serverless solution to post submissions, as I don't need anything more in this project.
 7. Updated text on all the pages.
+8. I added the option to choose the language (Polish and English).
 
 ## Challanges in rebuildning the website
 
