@@ -39,6 +39,14 @@
   .project__info {
     border-bottom: 1px dotted $off-white;
   }
+  .project__githib-icon {
+    color: $off-white;
+    height: 1.5rem;
+    width: 1.5rem;
+    &:hover {
+      color: $orange-med;
+    }
+  }
 }
 
 @media (min-width: 768px) {

@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Button from "@material-ui/core/Button";
 import Chip from "@material-ui/core/Chip";
 import { useTranslation } from "react-i18next";
+import { Icon } from "@iconify/react";
+import githubIcon from "@iconify/icons-simple-icons/github";
 
 const Project = ({ project }) => {
   const { t } = useTranslation();
@@ -10,7 +12,7 @@ const Project = ({ project }) => {
     setDescriptionVisible(!descriptionVisible);
   };
   return (
-    <div className="project mb-5 col-sm-6 col-md-4">
+    <div className="project mb-5 col-sm-6 col-lg-4">
       <div className="project__details">
         <img
           src={project.imgSrc}
@@ -46,6 +48,16 @@ const Project = ({ project }) => {
                 </a>
               </Button>
             </div>
+            {project.git && (
+              <a
+                href={project.git}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="m-3"
+              >
+                <Icon icon={githubIcon} className="project__githib-icon" />
+              </a>
+            )}
           </div>
         ) : (
           ""
