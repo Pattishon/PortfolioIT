@@ -10,7 +10,7 @@ const LandingPage = () => {
       id="home"
       className="offset landing-page"
       style={{
-        backgroundImage: "url(img/bg.png)"
+        backgroundImage: "url(img/bg.webp)"
       }}
     >
       <div className="text-center caption">
