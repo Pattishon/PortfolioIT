@@ -10,6 +10,7 @@ const Portfolio = () => {
     {
       title: "Expensify",
       imgSrc: "img/thumbnails/expensify.png",
+      imgSrcWebp: "img/thumbnails/expensify.webp",
       imgAlt: "expencify",
       info: t("portfolio.projects.expensify"),
       git: "https://github.com/Pattishon/Expensify",
@@ -38,6 +39,7 @@ const Portfolio = () => {
     {
       title: "Indecission",
       imgSrc: "img/thumbnails/indecission.png",
+      imgSrcWebp: "img/thumbnails/indecission.webp",
       imgAlt: "indecission",
       info: t("portfolio.projects.indecission"),
       git: "https://github.com/Pattishon/IndecissionApp",
@@ -62,6 +64,7 @@ const Portfolio = () => {
     {
       title: "Neon Bootstrap",
       imgSrc: "img/thumbnails/neon_theme.png",
+      imgSrcWebp: "img/thumbnails/neon_theme.webp",
       imgAlt: "neon theme bootstrap",
       info: t("portfolio.projects.neon"),
       technologies: (
@@ -76,6 +79,7 @@ const Portfolio = () => {
     {
       title: "Bootstrap",
       imgSrc: "img/thumbnails/slider.png",
+      imgSrcWebp: "img/thumbnails/slider.webp",
       imgAlt: "bootstrap",
       info: t("portfolio.projects.bootstrap"),
       technologies: (
@@ -91,6 +95,7 @@ const Portfolio = () => {
     {
       title: "Artist portfolio",
       imgSrc: "img/thumbnails/artist-portfolio.png",
+      imgSrcWebp: "img/thumbnails/artist-portfolio.webp",
       imgAlt: "artist portfolio",
       info: t("portfolio.projects.art"),
       git: "https://github.com/Pattishon/Patti-Adams-Portfolio",
@@ -105,6 +110,7 @@ const Portfolio = () => {
     {
       title: "Portfolio",
       imgSrc: "img/thumbnails/portfolio.png",
+      imgSrcWebp: "img/thumbnails/portfolio.webp",
       imgAlt: "portfolio",
       info: t("portfolio.projects.portfolio"),
       git: "https://github.com/Pattishon/Portfolio",

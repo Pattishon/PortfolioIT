@@ -11,7 +11,7 @@
   },
   "about": {
     "header": "Poznaj mnie!",
-    "description": "Jestem front-end-developerem, piszę głównie w React. Wszystkie strony, nad którymi pracuję są responsywne. Przykładam dużą wagę do jakości kodu i ciągle staram się go udoskonalać. Poza porgramowaniem interesuję się grafiką, projektowaniem stron, UX-em i UI. Obecnie szukam pracy, która umożliwi mi rozwój i pogłębianie moich zdolności programistycznych.",
+    "description": "Jestem front-end-developerem, piszę głównie w Reaccie. Wszystkie strony, nad którymi pracuję są responsywne. Przykładam dużą wagę do jakości kodu i ciągle staram się go udoskonalać. Poza porgramowaniem interesuję się grafiką, projektowaniem stron, UX-em i UI. Obecnie szukam pracy, która umożliwi mi rozwój i pogłębianie moich zdolności programistycznych.",
     "randomFact": "Losowy fakt o mnie",
     "facts": {
       "0": "Mam 464 kredki.",

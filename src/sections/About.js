@@ -23,11 +23,15 @@ const About = () => {
         <div className="text-center p-3 ">
           <div className="d-flex flex-column flex-md-row align-items-center mb-4">
             <div>
-              <img
-                src="img/portrait.png"
-                className="about-page__avatar mb-3 mr-md-4"
-                alt="Portrait"
-              />
+              <picture>
+                <source srcset="img/portrait.webp" type="image/webp" />
+                <source srcset="img/portrait.png" type="image/png" />
+                <img
+                  src="img/portrait.png"
+                  className="about-page__avatar mb-3 mr-md-4"
+                  alt="Portrait"
+                />
+              </picture>
             </div>
             <Card className="about-page__card mb-3 mb-md-0 px-3 px-md-5 py-3">
               <h1 className="about-page__title mt-3 mb-4 text-uppercase">

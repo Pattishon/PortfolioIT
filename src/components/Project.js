@@ -14,12 +14,17 @@ const Project = ({ project }) => {
   return (
     <div className="project mb-5 col-sm-6 col-lg-4">
       <div className="project__details">
-        <img
-          src={project.imgSrc}
-          alt={project.imgAlt}
-          onClick={toggleDescription}
-          className="project__img p-3"
-        />
+        <picture>
+          <source srcset={project.imgSrcWebp} type="image/webp" />
+          <source srcset={project.imgSrc} type="image/png" />
+          <img
+            src={project.imgSrc}
+            alt={project.imgAlt}
+            onClick={toggleDescription}
+            className="project__img p-3"
+          />
+        </picture>
+
         {descriptionVisible ? (
           <div
             className="project__description text-center d-flex flex-column justify-content-center text-off-white"
@@ -65,7 +70,7 @@ const Project = ({ project }) => {
       </div>
       <div className="project__tags d-flex flex-wrap justify-content-center">
         {project.tags.map(tag => (
-          <Chip key={tag} label={tag} color="primary" className="m-1" />
+          <Chip key={tag} label={tag} className="m-1" />
         ))}
       </div>
     </div>
