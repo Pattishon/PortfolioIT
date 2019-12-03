@@ -38,7 +38,13 @@ const Header = () => {
         collapseOnSelect
       >
         <LinkContainer to="/">
-          <Navbar.Brand>Logo</Navbar.Brand>
+          <Navbar.Brand>
+            <picture>
+              <source srcset="img/logo/logo.webp" type="image/webp" />
+              <source srcset="img/logo/logo.png" type="image/png" />
+              <img src="img/logo/logo.png" alt="logo" />
+            </picture>
+          </Navbar.Brand>
         </LinkContainer>
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"

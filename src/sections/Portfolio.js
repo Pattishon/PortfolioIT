@@ -136,6 +136,10 @@ const Portfolio = () => {
           <Project project={project} key={project.title} />
         ))}
       </div>
+      <div className="text-center">
+        <hr className="socket" />
+        <p>&copy; Patrycja Adamczyk, 2019</p>
+      </div>
     </div>
   );
 };

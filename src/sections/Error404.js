@@ -14,6 +14,10 @@ const Error = () => (
         Back to home page
       </Button>
     </LinkContainer>
+    <div className="text-center">
+      <hr className="socket" />
+      <p>&copy; Patrycja Adamczyk, 2019</p>
+    </div>
   </div>
 );
 
