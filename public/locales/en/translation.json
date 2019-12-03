@@ -30,36 +30,50 @@
       "interests": "INTERESTS",
       "additional": "ADDITIONAL INFORMATION"
     },
-    "skills": {
-      "1": "Good organization skills – Organizing LARPs and field games for Orkon (for 50+ people)",
-      "2": "Creativity – Required for interests such as art and LARPs",
-      "3": "Computer graphics – Procreate, Photoshop, Gimp, Krita",
-      "4": "Vector graphics – Inkscape",
-      "5": "3D graphics – Blender"
-    },
-    "education": {
-      "2011": "Silesian University Biotechnology bachelor",
-      "2014": "Silesian University Biotechnology masters",
-      "2015": "AGH University of Science and Technology Computer Graphics postgraduate studies"
-    },
     "experience": {
       "programmer": "Programmer",
       "developing": "Developing a complex, responsive application for hotels and restaurants.",
       "designing": "Designing layouts for applications.",
+      "blog": "Creating posts about programming and designing websites for the company blog.",
+      "assets": "Occasionally creating graphic assets (eg. Buttons, icons).",
+      "scrum": "Working in Agile environment (scrum).",
       "technologies": "Technologies",
       "service": "Service Specialist",
       "verification": "Initial verification of reported service problems.",
+      "collabDept": "Collaboration with other departments (i.a. IT, R&D and technical suport).",
+      "collabForeign": "Collaboration with foreign contractors (local companies on foreign markets and service companies).",
+      "negotiation": "Participation in negotiation of terms of cooperation with subcontractors and local companies.",
       "coordination": "Serviceman work coordination on foreign markets (eg. British, French, Dutch and Canadian).",
       "serviceActions": "Organising service actions.",
-      "reports": "Developing reports with MS Excel.",
+      "reports": "Developing reports on service works (MS Excel).",
       "leader": "Technical Support Team Leader",
       "supervision": "Coordination and supervision of the team work.",
       "collaboration": "Collaboration with other departments.",
+      "suppReports": "Creating reports on teams work and encountered problems.",
       "helpdesk": "Immediate help for the customers from foreign markets (mainlyBritish, Dutch and Malaysian).",
       "support": "Technical Support Specialist",
       "tasks": "Receiving and processing of tasks regarding technical and operational problems.",
       "assistance": "Ad hoc assistance for British, Dutch and Malaysian clients."
     },
+    "skills": {
+      "1": "Good organization skills – Organizing LARPs and field games for Orkon (for 50+ people)",
+      "2": "Creativity – Required for interests such as art and LARPs",
+      "3": "Computer graphics – Procreate, Photoshop, Gimp, Krita",
+      "4": "Vector graphics – Inkscape",
+      "5": "3D graphics – Blender",
+      "6": "Excel – advanced knowledge",
+      "7": "Driving license B"
+    },
+    "education": {
+      "silesianUniversity": "Silesian University",
+      "biotechnology": "Biotechnology",
+      "bachelor": "bachelor",
+      "mastes": "mastes",
+      "agh": "AGH University of Science and Technology",
+      "graphics": "Computer Graphics",
+      "postgrad": "postgraduate studies"
+    },
+
     "languages": {
       "pl": "Polish - native",
       "en": "English - certificate (CAE)",

@@ -28,6 +28,10 @@ const Skills = () => {
         />
       </Card>
       {showList ? <SkillsList showSkillsList={showSkillsList} /> : ""}
+      <div className="text-center">
+        <hr className="socket " />
+        <p className="text-off-white">&copy; Patrycja Adamczyk, 2019</p>
+      </div>
     </div>
   );
 };

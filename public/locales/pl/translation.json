@@ -30,36 +30,50 @@
       "interests": "ZAINTERESOWANIA",
       "additional": "DODATKOWE INFORMACJE"
     },
-    "skills": {
-      "1": "Dobre zdolności organizacyjne - Organizowałam LARPy i gry terenowe podczas Orkonu (dla 50+ osób)",
-      "2": "Kreatywność",
-      "3": "Grafika komputerowa - Procreate, Photoshop, Gimp, Krita",
-      "4": "Grafika wektorowa – Inkscape",
-      "5": "Grafika 3D – Blender"
-    },
-    "education": {
-      "2011": "Uniwersytet Śląski Biotechnologia licencjat",
-      "2014": "Uniwersytet Śląski Biotechnologia magister",
-      "2015": "AGH Grafika Komputerowa studia podyplomowe"
-    },
     "experience": {
       "programmer": "Programista",
       "developing": "Tworzenie kompleksowej, responsywnej aplikacji dla hoteli i restauracji.",
       "designing": "Projektowanie layoutów do aplikacji.",
+      "blog": "Tworzenie wpisów dotyczących programowania i projektowania stron internetowych na firmowego bloga.",
+      "assets": "Okazyjne tworzenie zasobów graficznych (np przycisków, ikon).",
+      "scrum": "Praca w zespole scrumowym.",
       "technologies": "Technologie",
       "service": "Specjalista ds. serwisu",
       "verification": "Wstępna weryfikacja zgłaszanych problemów.",
+      "collabDept": "Współpraca z innymi działami (m.in. IT, R&D i wsparciem technicznym).",
+      "collabForeign": "Współpraca z kontrahentami zagranicznymi (spółki lokalne i podwykonawcy serwisowi).",
+      "negotiation": "Udział w negocjacjach warunków współpracy z podwykonawcami i spółkami lokalnymi.",
       "coordination": "Koordynacja pracy serwisantów na rynkach zagranicznych (m. in. brytyjskim, francuskim, holenderskim i kanadyjskim).",
       "serviceActions": "Organizowanie akcji serwisowych.",
       "reports": "Przygotowanie raportów dotyczących pracy serwisu (MS Excel).",
       "leader": "Lider zespołu wsparcia technicznego paczkomatów",
       "supervision": "Koordynacja i nadzór pracy zespołu.",
       "collaboration": "Współpraca z innymi działami.",
+      "suppReports": "Tworzenie raportów dotyczących pracy zespołu i napotkanych problemów.",
       "helpdesk": "Doraźna pomoc dla klientów rynku brytyjskiego, holenderskiego i malezyjskiego oraz dla usług międzynarodowych.",
       "support": "Specjalista wsparcia technicznego paczkomatów",
       "tasks": "Przyjmowanie i procesowanie zgłoszeń dotyczących problemów technicznych i operacyjnych.",
       "assistance": "Doraźna pomoc dla klientów rynku brytyjskiego, holenderskiego i malezyjskiego."
     },
+    "skills": {
+      "1": "Dobre zdolności organizacyjne - Organizowałam LARPy i gry terenowe podczas Orkonu (dla 50+ osób)",
+      "2": "Kreatywność",
+      "3": "Grafika komputerowa - Procreate, Photoshop, Gimp, Krita",
+      "4": "Grafika wektorowa – Inkscape",
+      "5": "Grafika 3D – Blender",
+      "6": "Excel – zaawansowany znajomość",
+      "7": "Prawo jazdy B"
+    },
+    "education": {
+      "silesianUniversity": "Uniwersytet Śląski",
+      "biotechnology": "Biotechnologia",
+      "bachelor": "licencjat",
+      "mastes": "magister",
+      "agh": "AGH",
+      "graphics": "Grafika Komputerowa",
+      "postgrad": "podyplomowe"
+    },
+
     "languages": {
       "pl": "Polski - ojczysty",
       "en": "Angielski - certyfikowany (CAE)",

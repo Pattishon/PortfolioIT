@@ -24,45 +24,7 @@ const Cv = ({ hideCv }) => {
           <span>adamczyk.p@protonmail.com</span>
         </p>
         <hr />
-        <div className="d-flex flex-column flex-md-row">
-          <div className="tech">
-            <h2 className="cv__section-title">
-              {t("cv.subtitles.technologies")}{" "}
-            </h2>
-            <ul className="cv__list cv__list--tech">
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>SCSS</li>
-              <li>JavaScript</li>
-              <li>React</li>
-              <li>Redux</li>
-              <li>Firebase</li>
-              <li>Webpack</li>
-              <li>Jest</li>
-              <li>Enzyme</li>
-              <li>Bootstrap</li>
-            </ul>
-          </div>
-          <hr className="d-md-none mx-0" />
-          <div className="cv-skills">
-            <h2 className="cv__section-title">{t("cv.subtitles.skills")}</h2>
-            <ul className="cv__list skills__list">
-              <li>{t("cv.skills.1")}</li>
-              <li>{t("cv.skills.2")}</li>
-              <li>{t("cv.skills.3")}</li>
-              <li>{t("cv.skills.4")}</li>
-              <li>{t("cv.skills.5")}</li>
-            </ul>
-          </div>
-        </div>
-        <hr />
-        <h2 className="cv__section-title">{t("cv.subtitles.education")}</h2>
-        <ul className="cv__list text-left px-3 px-md-5 text-md-center">
-          <li>2011 – {t("cv.education.2011")} </li>
-          <li>2014 – {t("cv.education.2014")} </li>
-          <li>2015 – {t("cv.education.2015")}</li>
-        </ul>
-        <hr />
+        {/* experience */}
         <h2 className="cv__section-title">{t("cv.subtitles.experience")}</h2>
         <div className="cv__exp">
           <div className="d-flex flex-column flex-md-row">
@@ -77,6 +39,9 @@ const Cv = ({ hideCv }) => {
               <ul className="cv__list cv__list--exp">
                 <li>{t("cv.experience.developing")}</li>
                 <li>{t("cv.experience.designing")}</li>
+                <li>{t("cv.experience.blog")}</li>
+                <li>{t("cv.experience.assets")}</li>
+                <li>{t("cv.experience.scrum")}</li>
                 <li>
                   {t("cv.experience.technologies")}: React, Redux, Jest, CSS3,
                   RWD, TailwindCSS, GraphQL, Docker.
@@ -95,6 +60,9 @@ const Cv = ({ hideCv }) => {
             <div className="responsibilities">
               <ul className="cv__list cv__list--exp">
                 <li>{t("cv.experience.verification")}</li>
+                <li>{t("cv.experience.collabDept")}</li>
+                <li>{t("cv.experience.collabForeign")}</li>
+                <li>{t("cv.experience.negotiation")}</li>
                 <li>{t("cv.experience.coordination")}</li>
                 <li>{t("cv.experience.serviceActions")}</li>
                 <li>{t("cv.experience.reports")}</li>
@@ -115,6 +83,7 @@ const Cv = ({ hideCv }) => {
               <ul className="cv__list cv__list--exp">
                 <li>{t("cv.experience.supervision")}</li>
                 <li>{t("cv.experience.collaboration")}</li>
+                <li>{t("cv.experience.suppReports")}</li>
                 <li>{t("cv.experience.helpdesk")}</li>
               </ul>
             </div>
@@ -138,11 +107,68 @@ const Cv = ({ hideCv }) => {
           </div>
         </div>
         <hr />
+        {/* education */}
+        <h2 className="cv__section-title">{t("cv.subtitles.education")}</h2>
+        <ul className="cv__list text-left px-3 px-md-5 text-md-center">
+          <li>
+            2011 – {t("cv.education.silesianUniversity")}{" "}
+            <strong>{t("cv.education.biotechnology")}</strong>{" "}
+            <i>{t("cv.education.bachelor")}</i>
+          </li>
+          <li>
+            2014 – {t("cv.education.silesianUniversity")}{" "}
+            <strong>{t("cv.education.biotechnology")}</strong>{" "}
+            <i>{t("cv.education.mastes")}</i>{" "}
+          </li>
+          <li>
+            2015 – {t("cv.education.agh")}{" "}
+            <strong>{t("cv.education.graphics")}</strong>{" "}
+            <i>{t("cv.education.postgrad")}</i>
+          </li>
+        </ul>
+        <hr />
+        {/* technologies skills */}
+        <div className="d-flex flex-column flex-md-row">
+          <div className="tech">
+            <h2 className="cv__section-title">
+              {t("cv.subtitles.technologies")}{" "}
+            </h2>
+            <ul className="cv__list cv__list--tech">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>SCSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Redux</li>
+              <li>jQuery</li>
+              <li>Firebase</li>
+              <li>Webpack</li>
+              <li>Jest</li>
+              <li>Enzyme</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+          <hr className="d-md-none mx-0" />
+          <div className="cv-skills">
+            <h2 className="cv__section-title">{t("cv.subtitles.skills")}</h2>
+            <ul className="cv__list skills__list">
+              <li>{t("cv.skills.1")}</li>
+              <li>{t("cv.skills.2")}</li>
+              <li>{t("cv.skills.3")}</li>
+              <li>{t("cv.skills.4")}</li>
+              <li>{t("cv.skills.5")}</li>
+              <li>{t("cv.skills.6")}</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        {/* lang */}
         <h2 className="cv__section-title">{t("cv.subtitles.languages")}</h2>
         <p>{t("cv.languages.pl")}</p>
         <p>{t("cv.languages.en")}</p>
         <p>{t("cv.languages.ge")}</p>
         <hr />
+        {/* interests */}
         <h2 className="cv__section-title">{t("cv.subtitles.interests")}</h2>
         <ul className="cv__list cv__list--interests">
           <li>{t("cv.interests.art")}</li>
@@ -153,6 +179,7 @@ const Cv = ({ hideCv }) => {
           <li>{t("cv.interests.trekking")}</li>
         </ul>
         <hr />
+        {/* other */}
         <h2 className="cv__section-title">{t("cv.subtitles.additional")}</h2>
         <div className="links">
           <p>
