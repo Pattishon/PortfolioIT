@@ -108,7 +108,7 @@
       "neon": "Responsive website project created with use of Bootstrap 4.",
       "bootstrap": "Responsive website project created with use of Bootstrap 4. Ideal for portfolio presentation.",
       "art": "Responsive portfolio project. It was created as an exercise with RWD. All featured paintings are created by the author.",
-      "portfolio": "First version of this portfolio. Created with bootstrap."
+      "portfolio": "This website, created with React, React bootstrap and material UI, translated with i18next."
     },
     "technologies": "Used technlogies",
     "goTo": "Go to "

@@ -7,8 +7,6 @@ import sassIcon from "@iconify/icons-simple-icons/sass";
 import javascriptIcon from "@iconify/icons-simple-icons/javascript";
 import reactIcon from "@iconify/icons-simple-icons/react";
 import reduxIcon from "@iconify/icons-simple-icons/redux";
-import firebaseIcon from "@iconify/icons-simple-icons/firebase";
-import webpackIcon from "@iconify/icons-simple-icons/webpack";
 import jestIcon from "@iconify/icons-simple-icons/jest";
 import bootstrapIcon from "@iconify/icons-simple-icons/bootstrap";
 import "react-multi-carousel/lib/styles.css";
@@ -37,14 +35,6 @@ const skills = [
   {
     symbol: <Icon icon={reduxIcon} className="skill__icon" />,
     text: "Redux"
-  },
-  {
-    symbol: <Icon icon={firebaseIcon} className="skill__icon" />,
-    text: "Firebase"
-  },
-  {
-    symbol: <Icon icon={webpackIcon} className="skill__icon" />,
-    text: "Webpack"
   },
   {
     symbol: <Icon icon={jestIcon} className="skill__icon" />,

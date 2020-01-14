@@ -24,11 +24,10 @@ const SkillsList = ({ showSkillsList }) => {
                 <li>JavaScript</li>
                 <li>React</li>
                 <li>Redux</li>
-                <li>Firebase</li>
-                <li>Webpack</li>
                 <li>Jest</li>
                 <li>Enzyme</li>
                 <li>Bootstrap</li>
+                <li>React-bootstrap</li>
               </ul>
             </div>
             <div>
@@ -46,8 +45,8 @@ const SkillsList = ({ showSkillsList }) => {
                 {t("skills.learning")}
               </h2>
               <ul className="skills-list__list">
-                <li>React-bootstrap</li>
                 <li>Node.js</li>
+                <li>React Native</li>
               </ul>
             </div>
           </div>

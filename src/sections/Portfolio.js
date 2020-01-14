@@ -8,6 +8,39 @@ const Portfolio = () => {
 
   const projects = [
     {
+      title: "Portfolio",
+      imgSrc: "img/thumbnails/portfolio.png",
+      imgSrcWebp: "img/thumbnails/portfolio.webp",
+      imgAlt: "portfolio",
+      info: t("portfolio.projects.portfolio"),
+      git: "https://github.com/Pattishon/PortfolioIT",
+      technologies: (
+        <>
+          <strong>React</strong>, <strong>React-router</strong>,{" "}
+          <strong>React-Bootstrap</strong>, <strong>SCSS</strong>,{" "}
+          <strong>HTML canvas</strong>
+        </>
+      ),
+      link: "https://patti-adams.netlify.com/",
+      tags: ["React", "React-router", "React-Bootstrap", "SCSS", "canvas"]
+    },
+    {
+      title: "Artist portfolio",
+      imgSrc: "img/thumbnails/artist-portfolio.png",
+      imgSrcWebp: "img/thumbnails/artist-portfolio.webp",
+      imgAlt: "artist portfolio",
+      info: t("portfolio.projects.art"),
+      git: "https://github.com/Pattishon/PattiAdamsArtPortfolioReact",
+      technologies: (
+        <>
+          <strong>React</strong>, <strong>Tailwind</strong>,{" "}
+          <strong>RWD</strong>, <strong>React-router</strong>
+        </>
+      ),
+      link: "https://patti-adams-art.netlify.com",
+      tags: ["React", "Tailwind", "RWD", "React-router"]
+    },
+    {
       title: "Expensify",
       imgSrc: "img/thumbnails/expensify.png",
       imgSrcWebp: "img/thumbnails/expensify.webp",
@@ -91,37 +124,6 @@ const Portfolio = () => {
       link:
         "https://partycja-a.netlify.com/portfolio/bootstrap%20with%20image%20slider/bootstrap-image.html",
       tags: ["Bootstrap", "HTML", "CSS"]
-    },
-    {
-      title: "Artist portfolio",
-      imgSrc: "img/thumbnails/artist-portfolio.png",
-      imgSrcWebp: "img/thumbnails/artist-portfolio.webp",
-      imgAlt: "artist portfolio",
-      info: t("portfolio.projects.art"),
-      git: "https://github.com/Pattishon/Patti-Adams-Portfolio",
-      technologies: (
-        <>
-          <strong>HTML</strong>, <strong>CSS</strong>, <strong>RWD</strong>
-        </>
-      ),
-      link: "https://patti-adams-art.netlify.com",
-      tags: ["RWD", "HTML", "CSS"]
-    },
-    {
-      title: "Portfolio",
-      imgSrc: "img/thumbnails/portfolio.png",
-      imgSrcWebp: "img/thumbnails/portfolio.webp",
-      imgAlt: "portfolio",
-      info: t("portfolio.projects.portfolio"),
-      git: "https://github.com/Pattishon/Portfolio",
-      technologies: (
-        <>
-          <strong>HTML</strong>, <strong>CSS</strong>,{" "}
-          <strong>Bootstrap</strong>
-        </>
-      ),
-      link: "https://partycja-a.netlify.com/",
-      tags: ["Bootstrap", "HTML", "CSS"]
     }
   ];
   return (
@@ -138,7 +140,7 @@ const Portfolio = () => {
       </div>
       <div className="text-center">
         <hr className="socket" />
-        <p>&copy; Patrycja Adamczyk, 2019</p>
+        <p>&copy; Patrycja Adamczyk, 2020</p>
       </div>
     </div>
   );

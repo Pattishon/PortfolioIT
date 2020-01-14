@@ -16,7 +16,7 @@ const Error = () => (
     </LinkContainer>
     <div className="text-center">
       <hr className="socket" />
-      <p>&copy; Patrycja Adamczyk, 2019</p>
+      <p>&copy; Patrycja Adamczyk, 2020</p>
     </div>
   </div>
 );

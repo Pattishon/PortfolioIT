@@ -18,12 +18,6 @@ const Cv = ({ hideCv }) => {
         </IconButton>
         <h1 className="cv_title"> PATRYCJA ADAMCZYK</h1>
         <hr />
-        <p className="d-flex flex-column flex-md-row justify-content-md-around">
-          <span>ul. Raciborska 10/30, 30-384 Kraków</span>
-          <span>tel. 721329128</span>
-          <span>adamczyk.p@protonmail.com</span>
-        </p>
-        <hr />
         {/* experience */}
         <h2 className="cv__section-title">{t("cv.subtitles.experience")}</h2>
         <div className="cv__exp">

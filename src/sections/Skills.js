@@ -30,7 +30,7 @@ const Skills = () => {
       {showList ? <SkillsList showSkillsList={showSkillsList} /> : ""}
       <div className="text-center">
         <hr className="socket " />
-        <p className="text-off-white">&copy; Patrycja Adamczyk, 2019</p>
+        <p className="text-off-white">&copy; Patrycja Adamczyk, 2020</p>
       </div>
     </div>
   );

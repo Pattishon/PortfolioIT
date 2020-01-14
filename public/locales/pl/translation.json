@@ -108,7 +108,7 @@
       "neon": "Responsywny projekt, stworzony przy użyciu Bootstrapa 4.",
       "bootstrap": "Projekt responsywnej strony, stworzony przy użyciu Bootstrapa 4. Idealny do prezentacji portfolio.",
       "art": "Projekt responsywnego portfolio. Stworzony w ramach ćwiczenia technologii RWD. Wszystkie zawarte tu obrazy są mojego autorstwa.",
-      "portfolio": "Pierwsza wersja tego portfolio. Stworzona z użyciem Bootstrapa 4."
+      "portfolio": "Ta strona, stworzona z użyciem React, React bootstrap i material UI, tłumaczenie z biblioteką i18next."
     },
     "technologies": "Użyte technologie",
     "goTo": "Przejdź do "

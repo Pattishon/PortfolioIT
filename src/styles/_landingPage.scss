@@ -1,8 +1,12 @@
 .landing-page {
-  height: 100vh;
   background-color: #222;
-  background-position: center;
-  background-size: cover;
+  height: 100vh;
+}
+
+.canvas {
+  position: absolute;
+  height: 90vh;
+  overflow: hidden;
 }
 
 .caption {
@@ -18,10 +22,12 @@
   font-size: 2.3rem;
   letter-spacing: 0.15rem;
   padding-bottom: 0.5rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem #202020;
 }
 .caption__subtitle {
   font-size: 1.5rem;
   padding-bottom: 0.4rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem #202020;
 }
 
 @media (min-width: 768px) {
