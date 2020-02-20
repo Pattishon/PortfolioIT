@@ -5105,10 +5105,10 @@ i18next-xhr-backend@^3.2.2:
   dependencies:
     "@babel/runtime" "^7.5.5"
 
-i18next@^19.0.1:
-  version "19.0.1"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-19.0.1.tgz#11347b9d5f2ceb4a03750a06010cc249fe065d31"
-  integrity sha512-xZjzCcInvkgx3ZzymkySZ/ULOZyAMXTmQP22Hvnf5CMRqrxe3BXhg6CBtpGSVPMiANnHOmPiNVWHLSncnffnxw==
+i18next@^19.2.0:
+  version "19.2.0"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-19.2.0.tgz#befeea5e9a5d133e9438b8a402cd55102ca41526"
+  integrity sha512-Pj/WKE0ABTwZ1CA5CHSsrcUm1KD0BxLEs30m7AAJCBKtRVOB9rqQCpXX4qzRHwFB8Fm6xqy6Dlcz/7IKb8nkQQ==
   dependencies:
     "@babel/runtime" "^7.3.1"
 
