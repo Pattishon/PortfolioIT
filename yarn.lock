@@ -986,10 +986,10 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@iconify/icons-simple-icons@^1.0.16":
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/@iconify/icons-simple-icons/-/icons-simple-icons-1.0.17.tgz#742c3dbec21b91f355ca6722b67620e6ebdb4b4b"
-  integrity sha512-L1miHeMOxWTuplALYYWttCbFvqgBlZkgQ8TIrnyIMCp9INySX2IpT3g2dEITJtSRzwN2mDszIWPcuURVEQ6tIg==
+"@iconify/icons-simple-icons@^1.0.44":
+  version "1.0.44"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-simple-icons/-/icons-simple-icons-1.0.44.tgz#3c01fa99a9f7b931df5b3b936180f7cf2f864d9b"
+  integrity sha512-fi6nPrppY5WdSuNWfME71L3G3qv8AR2DvrfJMcgyZUW3vvMiuo9b3oXHRIACZZvBiGp1riOPATy45nbTAxp9Fw==
 
 "@iconify/react@^1.1.1":
   version "1.1.1"
